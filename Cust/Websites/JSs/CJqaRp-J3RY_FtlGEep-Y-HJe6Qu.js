@@ -37,12 +37,11 @@ function ChngItNow(a)
 		for(; i<l; ++i)
 			p[i].style.zIndex="10";
 		gebn("h1",2).fontSize="40px";
-		for(i=0; i<4; ++i)
+		for(i=0; i<5; ++i)
 		{
 			gebn("i",2,dc,i).fontSize="32px";
-			gebn("tumbsvotes",2,dc,i).fontSize="32px";
+			gebc("tumbsvotes",2,dc,i).fontSize="32px";
 		}
-		//sleep(6969);
 		gebn("a",2,dc,5).display="none";
 }
 
