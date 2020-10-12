@@ -42,4 +42,5 @@ function ChngItNow()
 			gebn("i")[i].style.fontSize="32px";
 			gebn("tumbsvotes")[i].style.fontSize="32px"
 		}
+		gebn("a",2,cd,5).display="none";
 }
