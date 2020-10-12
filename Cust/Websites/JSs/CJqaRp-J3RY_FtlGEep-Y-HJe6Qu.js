@@ -43,5 +43,3 @@ function ChngItNow()
 			gebn("tumbsvotes")[0].style.fontSize="32px"
 		}
 }
-
-ChngItNow()
