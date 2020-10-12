@@ -39,7 +39,7 @@ function ChngItNow()
 		gebn("h1",2).fontSize="40px";
 		for(i=0; i<4; ++i)
 		{
-			gebn("i")[0].style.fontSize="32px";
-			gebn("tumbsvotes")[0].style.fontSize="32px"
+			gebn("i")[i].style.fontSize="32px";
+			gebn("tumbsvotes")[i].style.fontSize="32px"
 		}
 }
