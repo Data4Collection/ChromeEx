@@ -1,7 +1,7 @@
 
 
 
-function ChngItNow()
+function ChngItNow(a)
 {
 	console.log("Changing website")
 		var info=["#321900","#EBBE96"];
@@ -39,8 +39,10 @@ function ChngItNow()
 		gebn("h1",2).fontSize="40px";
 		for(i=0; i<4; ++i)
 		{
-			gebn("i")[i].style.fontSize="32px";
-			gebn("tumbsvotes")[i].style.fontSize="32px"
+			gebn("i",2,dc,i).fontSize="32px";
+			gebn("tumbsvotes",2,dc,i).fontSize="32px";
 		}
-		gebn("a",2,cd,5).display="none";
+		//sleep(6969);
+		gebn("a",2,dc,5).display="none";
 }
+
