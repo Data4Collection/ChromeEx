@@ -1,0 +1,12 @@
+{
+    "name": "Font",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "manifest_version": 2,
+	"content_scripts":[{"matches":["<all_urls>"], "js":["charSet.js","General.js","content.js"]}],
+	"permissions":["tabs","activeTab"],
+	"browser_action":{
+						"default_popup":"popup.html",
+						"default_title":"Bear"
+					}
+}
