@@ -4,6 +4,8 @@
 function ChngItNow(a)
 {
 	console.log("Changing website")
+	if(((window.location.href.match(/\//g) || []).length)<4)
+		return;
 		var info=["#321900","#EBBE96"];
 		gebn("body")[0].innerHTML=gebn("article")[0].innerHTML;
 		var bd=gebn("body", 2);
@@ -24,15 +26,15 @@ function ChngItNow(a)
 			a[i].style.color=info[1];
 			a[i].style.textDecoration="underline";
 		}
-		var dv=s.getElementsByTagName("div");//[0].style.display="none"
+		var dv=s.getElementsByTagName("div");
 		i=0; l=dv.length;
 		for(; i<l; ++i)
 			dv[i].style.display="none";
-		var cn=s.getElementsByTagName("center");//[0].style.display="none"
+		var cn=s.getElementsByTagName("center");
 		i=0; l=cn.length;
 		for(; i<l; ++i)
 			cn[i].style.display="none";
-		var p=gebn("section")[0].getElementsByTagName("p");//[0].style.display="none"
+		var p=gebn("section")[0].getElementsByTagName("p");
 		i=0; l=p.length;
 		for(; i<l; ++i)
 			p[i].style.zIndex="10";
