@@ -4,7 +4,7 @@
 function ChngItNow(a)
 {
 	console.log("Changing website")
-	if(((window.location.href.match(/\//g) || []).length)<5)
+	if(gebn("article")[0])
 		return;
 		var info=["#321900","#EBBE96"];
 		gebn("body")[0].innerHTML=gebn("article")[0].innerHTML;
