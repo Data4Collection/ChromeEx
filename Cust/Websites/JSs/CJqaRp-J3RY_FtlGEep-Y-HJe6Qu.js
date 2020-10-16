@@ -4,7 +4,7 @@
 function ChngItNow(a)
 {
 	console.log("Changing website")
-	if(gebn("article")[0])
+	if(!gebc("tumbsvotes")[0])
 		return;
 		var info=["#321900","#EBBE96"];
 		gebn("body")[0].innerHTML=gebn("article")[0].innerHTML;
